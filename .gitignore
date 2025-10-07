@@ -1,3 +1,40 @@
+# Byte-compiled / optimal / caching files
+__pycache__/
+**/__pycache__
+*.pyc
+*.pyd
+*.so
+*.egg-info/
+*.swp
+
+# Virtual environments
 .venv/
 venv/
-__pycache__/*
+env/
+# Poetry
+.python-version
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+build/
+dist/
+*.whl
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Runtime and Logs
+*.log
+temp/
+
+# Database and sensitive files (Crucial for security!)
+*.env
+.env.*
+db.sqlite3
+settings_local.py
